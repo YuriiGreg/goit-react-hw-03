@@ -1,24 +1,15 @@
-.app {
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(to right, #ffe5c2 0%, #f6a58a 100%);
+.container {
+    width: 400px;
+    margin: 50px auto;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    border: 1px solid #525252;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(93, 93, 93, 0.1);
+    background-color: #f9f9f9;
 }
 
-.imageContainer {
-    margin-top: 10px;
-}
-
-.coffeeImage {
-    width: 100px;
-    height: auto;
-    opacity: 0.8;
-    transition: opacity 0.3s ease;
-}
-
-.coffeeImage:hover {
-    opacity: 1;
+.title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
 }
