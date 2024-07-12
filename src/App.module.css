@@ -1,0 +1,24 @@
+.app {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #ffe5c2 0%, #f6a58a 100%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imageContainer {
+    margin-top: 10px;
+}
+
+.coffeeImage {
+    width: 100px;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.coffeeImage:hover {
+    opacity: 1;
+}

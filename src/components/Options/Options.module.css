@@ -1,0 +1,36 @@
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.options button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+.options button:nth-child(1) {
+    background-color: #4acc4e;
+}
+
+.options button:nth-child(2) {
+    background-color: #159cb8;
+}
+
+.options button:nth-child(3) {
+    background-color: #f44336;
+}
+
+.options button:nth-child(4) {
+    background-color: #2196f3;
+}
+
+.options button:hover {
+    opacity: 0.8;
+}

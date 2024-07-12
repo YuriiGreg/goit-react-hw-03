@@ -1,0 +1,16 @@
+.description {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #d1916c;
+    border-radius: 4px;
+}
+
+.description h1 {
+    color: black;
+}
+
+.description p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
